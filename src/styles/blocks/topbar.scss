@@ -1,0 +1,10 @@
+.top-bar {
+  padding: 25px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (min-width: 576px) {
+    padding: 64px 72px;
+  }
+}
