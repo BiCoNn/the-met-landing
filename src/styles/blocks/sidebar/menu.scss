@@ -2,6 +2,9 @@
   box-sizing: border-box;
   height: 568px;
   background: #d12d35;
+  @media (min-width: 1240px) {
+    height: 840px;
+  }
 
   &__link {
     display: flex;
@@ -26,6 +29,8 @@
     font-size: 12px;
     letter-spacing: 1px;
     width: max-content;
+
+    transition: 1s;
   }
   &__order--button:hover {
     border-bottom: 1px solid #fff;
@@ -42,6 +47,12 @@
   flex-direction: column;
   gap: 14px;
 
+  @media (min-width: 744px) {
+    padding: 32px 72px;
+  }
+  @media (min-width: 1240px) {
+    padding: 32px 121px;
+  }
   &__list {
     margin: 0;
     padding: 0;
